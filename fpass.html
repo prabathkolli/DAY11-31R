@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Your Password</title>
+</head>
+<body style="color: blanchedalmond; background-color: crimson;"><br><br>
+    <center>
+        <fieldset style="background-color: black;">
+            <legend><h3>Forgot Your Password</h3></legend>
+        <form action="">
+            <label for="userid">User I'D</label><br>
+            <input type="text" name="userid" id="userid" required><br><br>
+            <label for="mailid">Mail I'D</label><br>
+            <input type="email" name="mailid" id="mailid" required><br><br>
+            <label for="otp">OTP</label><br>
+            <input type="number" id="otp" name="otp"><br><br>
+            <label for="newpass">New Password</label><br>
+            <input type="password" id="newpass" name="newpass" pattern="(?=. *[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Za-z!@#$%^&*0-9]{9,}" required><br><br>
+            <label for="conpass">Confirm Password</label><br>
+            <input type="password" id="conpass" name="conpass" pattern="(?=. *[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Za-z!@#$%^&*0-9]{9,}" required><br><br>
+            <button type="submit" style="background-color: blanchedalmond;"><a href="index11.html">Submit</a></button>
+            <br>
+        </form>
+</fieldset>
+    </center>
+</body>
+</html>
